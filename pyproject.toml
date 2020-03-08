@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "anders-hypermodern-python"
+version = "0.1.0"
+description = "The hypermoder Python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/andersglindstrom/hypermodern-python"
+repository = "https://github.com/andersglindstrom/hypermodern-python"
+keywords = ["hypermodern"]
+authors = ["Anders Lindstrom <anders@anderslindstrom.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
