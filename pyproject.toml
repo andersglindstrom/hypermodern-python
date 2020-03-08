@@ -12,6 +12,9 @@ packages = [
     { include = "hypermodern_python", from = "src" },
 ]
 
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python.console:main"
+
 [tool.poetry.dependencies]
 python = "^3.7"
 click = "^7.0"
