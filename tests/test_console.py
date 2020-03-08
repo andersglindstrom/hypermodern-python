@@ -32,5 +32,5 @@ def test_main_uses_en_wikipedia_org(runner, mock_requests_get):
 
 def test_main_fails_on_request_error(runner, mock_requests_get):
     mock_requests_get.side_effect = Exception("Boom")
-    resut = runner.invoke(console.main)
+    result = runner.invoke(console.main)
     assert result.exit_code == 1
