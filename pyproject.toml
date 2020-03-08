@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "anders-hypermodern-python"
 version = "0.1.0"
-description = "The hypermoder Python project"
+description = "The hypermodern Python project"
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/andersglindstrom/hypermodern-python"
