@@ -17,3 +17,7 @@ lint:
 .PHONY: nox
 nox:
 	nox -r
+
+.PHONY: black
+black:
+	nox -r -s black
