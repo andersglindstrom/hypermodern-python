@@ -1,11 +1,11 @@
 import textwrap
 
 import click
-import requests
 
 from . import __version__, wikipedia
 
 API_URL = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
+
 
 @click.command()
 @click.option(
