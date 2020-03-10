@@ -4,11 +4,7 @@ default: coverage
 
 .PHONY: test
 test:
-	poetry run pytest
-
-.PHONY: nox
-nox:
-	nox -r -s tests
+	poetry run pytest -m "not e2e"
 
 .PHONY: coverage
 coverage:
@@ -17,3 +13,7 @@ coverage:
 .PHONY: lint
 lint:
 	nox -r -s lint
+
+.PHONY: nox
+nox:
+	nox -r
